@@ -2,10 +2,9 @@
     --primary:rgb(5, 161, 167);
     --text: rgb(243, 243, 243);
 }
-
 .hero-img{
+    max-height: 100%;
     max-width: 80%;
-    max-height: 80%;
 }
 
 .text{
@@ -29,6 +28,20 @@ p{
 progress{
     color: var(--primary);
     bottom: -10px;
-    text-align: end;
     z-index: 1;
+}
+
+.lower-img{
+    max-height: 100%;
+    max-width: 80%;
+}
+
+.outside-img{
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.middle-img{
+    max-height: 100%;
+    max-width: 80%;
 }
