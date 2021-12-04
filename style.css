@@ -1,10 +1,32 @@
 :root{
-    --primary:rgb(5, 161, 167);
+    --primary:rgb(23, 195, 201);
+    --secondary: rgb(191, 191, 192);
+    --tertiary: rgb(34, 34, 34);
     --text: rgb(243, 243, 243);
+}
+
+.object-fit-contain{
+    object-fit: cover;
 }
 .hero-img{
     max-height: 100%;
     max-width: 80%;
+  border: 1px solid rgba(13, 181, 211, 0.46);
+  box-sizing: content-box;
+  border-radius: 5px;
+
+}
+
+header{
+    background-color: var(--secondary);
+}
+
+.main-color{
+    background-color: var(--primary);
+}
+
+.color{
+    background-color: var(--tertiary);
 }
 
 .text{
@@ -12,28 +34,21 @@
     text-align: center;
 }
 
-p{
-    size: 16px;
-}
-
 .spill-img{
-    background-image: url('https://www.wallpapertip.com/wmimgs/168-1683075_plain-orange-yellow-orange-gradient-colour-background.png');
-    backdrop-filter:blur(3px);
-    opacity: 70%;
+    background-image: url('https://th.bing.com/th/id/R.524bec983e6189accb7851854c2319d7?rik=wkxdc6lB6zucfw&pid=ImgRaw&r=0');
+    backdrop-filter:blur(4px);
+    opacity: 100%;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 40vh;
+    width: 60vh;
     z-index: 2;
+    bottom: 10px;
 }
 
-progress{
-    color: var(--primary);
-    bottom: -10px;
+.progress-bar{
     z-index: 1;
-}
-
-.lower-img{
-    max-height: 100%;
-    max-width: 80%;
 }
 
 .outside-img{
@@ -49,11 +64,6 @@ progress{
 
 footer{
     color: var(--text);
-}
-
-.icon{
-    height: 48px;
-    width: 48px;
 }
 
 .logo{
