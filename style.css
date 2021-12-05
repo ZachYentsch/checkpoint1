@@ -76,4 +76,12 @@ footer{
     width: 50px;
 }
 
-@media
+@media (max-width: 767px){
+    .spill-img{
+        display: none;
+    }
+    .progress{
+        display: none;
+    
+    }
+}
