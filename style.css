@@ -50,8 +50,8 @@ font-family: 'Orbitron', sans-serif;
     height: 40vh;
     width: 60vh;
     z-index: 2;
-    bottom: -8em;
-    right: 5em;
+    bottom: -10em;
+    right: -5em
 }
 
 .progress-bar{
@@ -60,7 +60,7 @@ font-family: 'Orbitron', sans-serif;
 
 .outside-img{
     max-height: 70%;
-    max-width: 60%;
+    max-width: 65%;
    
 }
 
@@ -79,13 +79,13 @@ footer{
 }
 
 @media (max-width: 767px){
-    .spill-img{
-       opacity: 0%;
-    }
     .progress{
         display: none;
     }
-    .gif{
-        display: none;
+    .spill-img{
+        bottom: .75em;
+        right: -.75em;
+        content: center;
+
     }
 }
