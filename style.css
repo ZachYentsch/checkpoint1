@@ -14,13 +14,14 @@ color: var(--primary);
 font-family: 'Orbitron', sans-serif;
 }
 
-.hero-img{
-    max-height: 100%;
-    max-width: 80%;
-  border: 1px solid rgba(13, 181, 211, 0.46);
-  box-sizing: content-box;
-  border-radius: 5px;
+.hidden-text{
+    color: var(--primary);
+    font-family: 'Orbitron', sans-serif;
+    }
 
+.hero-img{
+    background-image: url('https://images.solecollector.com/complex/images/c_crop,h_1247,w_1754,x_374,y_123/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/uhdgakppjvvc2sxyykqd/nike-mag');
+background-position: center;
 }
 
 .accent-color{
@@ -47,11 +48,7 @@ font-family: 'Orbitron', sans-serif;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
-    width: 60vh;
-    z-index: 2;
-    bottom: -10em;
-    right: -5em
+    height: 10em;
 }
 
 .progress-bar{
@@ -78,14 +75,13 @@ footer{
     width: 50px;
 }
 
-@media (max-width: 767px){
-    .progress{
-        display: none;
-    }
-    .spill-img{
-        bottom: .75em;
-        right: -.75em;
-        content: center;
+@media (min-width: 767px){
 
+    .spill-img{
+        height: 40vh;
+        width: 60vh;
+        z-index: 2;
+        bottom: -10em;
+        right: 0;
     }
 }

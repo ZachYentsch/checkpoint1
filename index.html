@@ -40,12 +40,55 @@
         <div class="container-fluid">
             <!-- RED -->
             <!-- How to layer the text properly -->
-            <div class="row main-color">
-                <div class="col-md-6 d-flex justify-content-center align-items-center object-fit-contain p-4">
-                    <img src="https://images.solecollector.com/complex/images/c_crop,h_1247,w_1754,x_374,y_123/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/uhdgakppjvvc2sxyykqd/nike-mag"
-                        class="hero-img rounded" alt="">
+            <div class="row hero-img">
+                <div class="col-md-4 d-flex justify-content-center align-items-center object-fit-contain p-4">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-light">Sign in</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-md-6 text align-items-center pt-4">
+                <div class="col-md-8 hidden-text pt-4 d-none d-lg-block" style="text-align: center;">
                     <h1>NIKE MAGS</h1>
                     <p> The colorway: Multi-color/Multi-color, it is also known as the Mcfly colorway. Nike rereleased
                         these shoes on 10/4/2016 with the autolace feature. The average resale of a pair of these shoes
@@ -54,7 +97,7 @@
             </div>
 
             <!-- GREEN -->
-            <div class="row accent-color">
+            <div class="row accent-color justify-content-center px-5">
                 <div class="col-md-6 text pt-3">
                     <h3>Origin</h3>
                     <p>Back in 1988, Tinker Hatfield was asked to design a sneaker of the future for a movie. The movie
@@ -83,76 +126,69 @@
                     </div>
                 </div>
             </div>
-
-            <div class="container-fluid px-0">
-                <!--BLUE  -->
-                <div class="row main-color">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center gif">
-                        <iframe src="https://giphy.com/embed/smGtEdVjeQysg" width="70%" height="70%" frameBorder="0"
-                            class="giphy-embed" allowFullScreen></iframe>
-                    </div>
-                    <div class="col-md-6 text lower-text d-grid p-5 mt-5">
-                        <h2>How does Nike design a new show?</h2>
-                        <p>"Normally we build the technology then build the shoe around it. Here, we built the
-                            technology,
-                            and then we had to fit it into the shoe and make it work and that is—in my opinion—10
-                            times
-                            more challenging than building the shoe around the technology." -Hatfield</p>
-                        <button type="button" class="btn btn-link"><a
-                                href="https://www.complex.com/sneakers/2016/10/nike-mag-tiffany-beers-interview">To
-                                Article</a></button>
-                    </div>
+            <!--BLUE  -->
+            <div class="row main-color">
+                <div class="col-md-6 d-flex justify-content-center align-items-center gif">
+                    <iframe src="https://giphy.com/embed/smGtEdVjeQysg" width="70%" height="70%" frameBorder="0"
+                        class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <div class="col-md-6 text lower-text d-grid p-5 mt-5">
+                    <h2>How does Nike design a new show?</h2>
+                    <p>"Normally we build the technology then build the shoe around it. Here, we built the
+                        technology,
+                        and then we had to fit it into the shoe and make it work and that is—in my opinion—10
+                        times
+                        more challenging than building the shoe around the technology." -Hatfield</p>
+                    <button type="button" class="btn btn-link"><a
+                            href="https://www.complex.com/sneakers/2016/10/nike-mag-tiffany-beers-interview">To
+                            Article</a></button>
                 </div>
             </div>
 
             <!--ORANGE  -->
-            <div class="container-fluid px-0">
-                <div class="row accent-color p-5" id="Kickz">
-                    <div class="col-md-4 d-flex justify-content-center align-items-center">
-                        <img src="https://th.bing.com/th/id/R.b2e7473a9245216ac675675f8fbc397e?rik=KuN513NJIxbcvQ&riu=http%3a%2f%2fimages.complex.com%2fcomplex%2fimages%2fc_scale%2cw_1100%2ff_auto%2cfl_progressive%2cpg_1%2cq_auto%2fgebclfz8txbx5vznmhad%2fnike-mag-2016-2&ehk=zVeCn%2fTFfhgh8gmDgmmsuGASHMyf19betfK4WGGl4I8%3d&risl=&pid=ImgRaw&r=0"
-                            class="middle-img rounded object-fit-contain" alt="">
-                    </div>
-                    <!-- Left Image 2nd on mobile -->
-                    <div class="col-md-4 order-md-first d-flex justify-content-center align-items-center">
-                        <img src="https://images.complex.com/complex/images/c_scale,w_570/fl_lossy,pg_1,q_auto/lrdrc4l05kuelqtqs7ok/nike-mag-2016-5"
-                            class="outside-img object-fit-contain rounded " alt="">
-                    </div>
-                    <!-- Right Image, 3rd on mobile -->
-                    <div class="col-md-4 order-md-last d-flex justify-content-center align-items-center">
-                        <img src="https://th.bing.com/th/id/OIP.dFei6oYGu7Rr9cjTMb5JlwHaFC?pid=ImgDet&rs=1"
-                            class="outside-img object-fit-contain rounded " alt="">
-                    </div>
+            <div class="row accent-color p-5" id="Kickz">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img src="https://th.bing.com/th/id/R.b2e7473a9245216ac675675f8fbc397e?rik=KuN513NJIxbcvQ&riu=http%3a%2f%2fimages.complex.com%2fcomplex%2fimages%2fc_scale%2cw_1100%2ff_auto%2cfl_progressive%2cpg_1%2cq_auto%2fgebclfz8txbx5vznmhad%2fnike-mag-2016-2&ehk=zVeCn%2fTFfhgh8gmDgmmsuGASHMyf19betfK4WGGl4I8%3d&risl=&pid=ImgRaw&r=0"
+                        class="middle-img rounded object-fit-contain" alt="">
+                </div>
+                <!-- Left Image 2nd on mobile -->
+                <div class="col-md-4 order-md-first d-flex justify-content-center align-items-center">
+                    <img src="https://images.complex.com/complex/images/c_scale,w_570/fl_lossy,pg_1,q_auto/lrdrc4l05kuelqtqs7ok/nike-mag-2016-5"
+                        class="outside-img object-fit-contain rounded " alt="">
+                </div>
+                <!-- Right Image, 3rd on mobile -->
+                <div class="col-md-4 order-md-last d-flex justify-content-center align-items-center">
+                    <img src="https://th.bing.com/th/id/OIP.dFei6oYGu7Rr9cjTMb5JlwHaFC?pid=ImgDet&rs=1"
+                        class="outside-img object-fit-contain rounded " alt="">
                 </div>
             </div>
 
             <!-- Purple -->
-            <div class="container-fluid px-0">
-                <div class="row main-color">
-                    <div class="col-12 text p-4 align-items-center">
-                        <h3>Is this a more wearable shoe than the 2011 model</h3>
-                        <p>No, definitely not. I think this one is a little bit less wearable than 2011. It's a
-                            prototype. It was really challenging to get everything in there and not change the
-                            aesthetics. But we knew if we changed the aesthetics, people wouldn’t be happy with it. We
-                            don't recommend a ton of wear in [these shoes]— just preserve it for years. The electronics,
-                            like the battery in your phone, will die after a while, just from use. We have it set up so
-                            that your battery will unlatch, so it will preserve it. The battery will last for years. If
-                            you have it sitting on the shelf for a week or more, the battery will unlatch itself, so
-                            that it’s not sucking power and you get more life out of it."-Hatfield</p>
-                    </div>
+            <div class="row main-color">
+                <div class="col-12 text p-4 align-items-center">
+                    <h3>Is this a more wearable shoe than the 2011 model</h3>
+                    <p>No, definitely not. I think this one is a little bit less wearable than 2011. It's a
+                        prototype. It was really challenging to get everything in there and not change the
+                        aesthetics. But we knew if we changed the aesthetics, people wouldn’t be happy with it. We
+                        don't recommend a ton of wear in [these shoes]— just preserve it for years. The electronics,
+                        like the battery in your phone, will die after a while, just from use. We have it set up so
+                        that your battery will unlatch, so it will preserve it. The battery will last for years. If
+                        you have it sitting on the shelf for a week or more, the battery will unlatch itself, so
+                        that it’s not sucking power and you get more life out of it."-Hatfield</p>
                 </div>
             </div>
-
-            <!-- Footer -->
-            <footer class="container-fluid p-0">
-                <div class="row accent-color">
-                    <div class="col-12 d-flex justify-content-end justify-content-evenly p-3 nav-text">
-                        <h3>Follow Us:</h3>
-                        <i class="mdi mdi-instagram"></i>
-                        <i class="mdi mdi-twitter"></i>
-                        <i class="mdi mdi-facebook"></i>
-                    </div>
+        </div>
+        <!-- Footer -->
+        <footer class="container-fluid">
+            <div class="row accent-color">
+                <div class="col-10 d-flex justify-content-center justify-content-evenly p-3 nav-text">
+                    <h3>Follow Us:</h3>
+                    <i class="mdi mdi-instagram"></i>
+                    <i class="mdi mdi-twitter"></i>
+                    <i class="mdi mdi-facebook"></i>
                 </div>
-            </footer>
+            </div>
+        </footer>
     </main>
 
 
